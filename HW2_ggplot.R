@@ -3,7 +3,6 @@
 # Functions used: geom_bar, geom_boxplot, geom_density, geom_histogram,
 #   geom_hline, geom_jitter, geom_line, geom_rug, geom_text,
 #   geom_violin, geom_vline
-# (geom_point and geom_smooth are commented out in the instructions)
 
 # Package
 if (!"ggplot2" %in% rownames(installed.packages())) {
