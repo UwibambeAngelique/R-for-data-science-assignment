@@ -111,8 +111,15 @@ View(scoredata)
 # (SPSS and MySQL imports are done in Assignment 1.)
 
 # Text file: the lecturer used a path on his own computer, so a relative path is used here
-data_class <- read.table("class_data.txt", header = TRUE)
-
+#data_class <- read.table("class_data.txt", header = TRUE)
+data_class <- data.frame(
+  HEIGHT = c(161,155,158,170,160,156,162,158,158,167,160,155,154,155,157,
+             157,160,158,160,160,152,154,150,161,162,164,161,155,159,163,
+             159,160,158,165,156,163,155,164,163,168,157,164,154),
+  WEIGHT = c(50,49,42,65,60,52,58,46,45,51,60,42,53,48,48,
+             48,53,52,51,53,44,56,63,52,57,49,52,54,46,50,
+             61,55,45,63,60,56,52,47,52,55,48,58,55)
+)
 variable.names(data_class)     # "HEIGHT" "WEIGHT"
 head(data_class)
 tail(data_class)
