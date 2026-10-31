@@ -147,6 +147,13 @@ df_pop <- df_pop |>
 
 #par(mar = c(5, 5, 4, 2))   # bottom, left, top, right
 
+par(mar = c(5, 5, 4, 2))
+plot(df_pop$year, df_pop$population / 1e6, type = "l",
+     xlab = "Year", ylab = "Population (millions)",
+     main = "Rwanda population, 1960 to 2025",
+     las = 1, lwd = 2, col = "steelblue")
+grid()
+text(1995, 5.7, "1994 genocide\nagainst the Tutsi", pos = 4, cex = 0.8)
 
 dir.create("images", showWarnings = FALSE)
 
