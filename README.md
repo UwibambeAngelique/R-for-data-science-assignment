@@ -1,4 +1,4 @@
-Assignment 1: Importing Data in R from a Statistical Package, a Database and a Web API
+Assignment 1: Importing Data in R from a Statistical Package, a Database and API
 
 **Student Name:** Uwibambe Angelique  
 **Registration number:** 20252MBI056  
